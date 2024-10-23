@@ -1,0 +1,16 @@
+comptox_ai==1.1.2
+json5==0.9.6
+matplotlib==3.5.3
+numpy==1.23.4
+pandas==1.5.2
+pickle5==0.0.12
+pubchempy==1.0.4
+rdkit==2023.9.6
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.13.0
+statsmodel==0.14.0
+torch==2.0.0
+torch_geometric==2.5.3
+tqdm==4.65.0
+xgboost==1.7.6

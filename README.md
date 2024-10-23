@@ -8,7 +8,7 @@ Augmenting molecular structure representation learning using semantic biomedical
 - ```requirements.txt``` contains the Python packages requirements.
 
 ### Data
-The data used are made available through the following box link: [```https://upenn.box.com/v/SemMoldatasets```](url), where: 
+The data used are made available through the following box link: [https://upenn.box.com/v/SemMoldatasets](url), where you can find: 
 - ```data/``` contains the pretraining dataset, the Knowledge Graphs created with the relative dictionary of entities and their ids and the classification datasets (```datasets_valid_and_splits/``` contais for each assay the tabular dataset with Smiles string, MACCS key, chemicals name and labels, and the training, validataion and test index for the 5 random runs);
 - ```ckpt/``` contains the pretrained GNN molecule encoder;
 - ```tsne_2d_embeddings_all_chemicals_37tox21_emb.xlsx``` is a dataframe containing chemical names, MACCS keys, physical properties and the 2D t-SNE projections for all the n = 8541 chemicals that belong to the set of the 37 Tox21 assays considered.

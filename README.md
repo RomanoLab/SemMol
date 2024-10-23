@@ -14,9 +14,21 @@ The data used are made available through the following [box folder](https://upen
 
 ### Models training for toxicology predictions
 - <b>Machine learning</b>: baseline ML models can be trained by running ```ML.py```. The results will be written in ```results/ML``` with a directory for each random runs (seed).
+```python
+python ML.py
+``` 
 - <b>Finetune MolCLR</b>: MolCLR can be finetuned by running ```MolCLR/finetune.py```. The results will be written in ```results/graph_structure_comptoxAI``` with a directory for each random runs (seed).
+```python
+python MolCLR/finetune.py
+``` 
 - <b>Semantic GNN</b>: Semantic GNN model can be trained by running ```semantic.py```.  The results will be written in ```results/semantic_gat``` with a directory for each random runs (seed).
+```python
+python semantic.py
+``` 
 - <b>MolCLR+Sem</b>: MolCLR+Sem model can be trained by running ```semantic_and_MolCLR.py```.  The results will be written in ```results/semantic_and_graph``` with a directory for each random runs (seed).
+```python
+python semantic_and_MolCLR.py
+```
 
 ### XAI
 Explainability with GNNExplainer can be obtained for positive chemicals by running the ```explain.py``` script. The results will be written in ```results/gnn_xai``` with a directory for each random runs.

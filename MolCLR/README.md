@@ -1,8 +1,8 @@
 ### MolCLR
 
-![Diagram](figs/MolCLR.PNG?raw=true)
+![Diagram](figs/MolCLR.gif?raw=true)
 
-This subdirectory contains all the scripts necessary to pretrain and finetune the MolCLR model, which code is taken by the MolCLR repository ```https://github.com/yuyangw/MolCLR/tree/master```.
+This subdirectory contains all the scripts necessary to pretrain and finetune the MolCLR model, which code is taken by the [MolCLR repository](https://github.com/yuyangw/MolCLR/tree/master).
 
 - ```/ckpt```: contains the Pytorch checkpoint for the MolCLR pretrained, finetuned, Semantic GNN and MolCLR+Sem models, obtained by evaluating the models on the validation set;
 - ```/dataset```: contains scrips for creating the molecules dataset and dataloader for both pretraing (```/dataset/dataset```) and finetuning (```/dataset/datset_test```);

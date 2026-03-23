@@ -20,21 +20,22 @@ python ML.py
 - <b>Finetune MolCLR</b>: MolCLR can be finetuned by running ```MolCLR/finetune.py```. The results will be written in ```results/graph_structure_comptoxAI``` with a directory for each random runs (seed).
 ```python
 python MolCLR/finetune.py
+```
+- <b>Finetune HiMol</b>: HiMol can be finetuned by running ```HiMol/finetune/finetune.py```. The results will be written in ```results/graph_structure_comptoxAI``` with a directory for each random runs (seed).
+```python
+python HiMol/finetune/finetune.py
 ``` 
 - <b>Semantic GNN</b>: Semantic GNN model can be trained by running ```semantic.py```.  The results will be written in ```results/semantic_gat``` with a directory for each random runs (seed).
 ```python
 python semantic.py
 ``` 
-- <b>MolCLR+Sem</b>: MolCLR+Sem model can be trained by running ```semantic_and_MolCLR.py```.  The results will be written in ```results/semantic_and_graph``` with a directory for each random runs (seed).
+- <b>SemMol</b>: SemMol model can be trained by running ```SemMol.py```.  The results will be written in ```results/semantic_and_graph``` with a directory for each random runs (seed).
 ```python
-python semantic_and_MolCLR.py
+python SemMol.py
 ```
 
 ### XAI
-Explainability with GNNExplainer can be obtained for positive chemicals by running the ```explain.py``` script. The results will be written in ```results/gnn_xai``` with a directory for each random runs.
-```python
-python explain.py
-``` 
+Explainability with LayerSaliency can be obtained for positive chemicals by running the ```explain.ipynb``` notebook. The results will be written in ```results/gnn_xai``` with a directory for each random runs.
 
 ### Evaluation
 The ```evaluation.py``` script contains code for:
